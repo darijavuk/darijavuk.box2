@@ -16,6 +16,7 @@ section {
     outline: 1px solid #cad7e8;
     border-radius: 16px;
     padding: 32px;
+    position:relative;
     
 }
 
@@ -37,3 +38,26 @@ h2 {
     line-height: 1.5;
     font-weight: 700;
 }
+.tip {
+    font-kerning: 1px;
+}
+
+.box {
+    display: inline-block;
+    position: relative;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: #CAD7E8;
+    font-kerning: 1px;
+}
+
+.box--positioned {
+        position: absolute;
+        background-color: #EBA893;
+        bottom: 50px;
+        right: 50px;
+    }
+
+img {
+        display: inline;
+    }
